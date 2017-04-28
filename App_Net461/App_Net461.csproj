@@ -81,9 +81,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Gps_Net461\Gps_Net461.csproj">
-      <Project>{aadda309-0fc7-40bb-ad6a-027518e348aa}</Project>
-      <Name>Gps_Net461</Name>
+    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gps\Gps.csproj">
+      <Project>{90faf697-3a78-4c6c-b4ca-44c30ce9b294}</Project>
+      <Name>Gps</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
